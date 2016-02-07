@@ -13,6 +13,7 @@ import java.sql.Date;
  */
 public class UserBean 
 {
+    private int id;
     private String name;
     private String password;
     private String email;
@@ -22,6 +23,14 @@ public class UserBean
     private int cardlimit;
     private int cardid;
     private boolean valid;
+
+    public void setId(int id) {
+        this.id = id;
+    }
+
+    public int getId() {
+        return id;
+    }
     
     public void setName(String name)
     {
