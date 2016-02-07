@@ -20,7 +20,7 @@ public class LoginModel {
     static Connection currentCon = null;
     static ResultSet rs = null;
 
-    public static UserBean login(UserBean bean) {
+    public UserBean login(UserBean bean) {
 
         //preparing some objects for connection 
         PreparedStatement preparedStatement = null;
